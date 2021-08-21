@@ -1,0 +1,112 @@
+/*
+
+Responsibe Web Desing
+_____________________
+
+Diseño Web Responsibe
+
+*/
+
+@media screen and (max-width: 600px)
+{
+
+    /* section equipo */
+    #slider
+    {
+        width: 350px;
+        height: 500px;
+        top: 2rem;
+    }
+
+    /* navigation__imagen  */
+    .navegacion__imagen
+    {
+        width: 10px;
+        height: 10px;
+        
+    }   
+
+    
+    
+}
+
+
+@media screen and (max-width: 900px)
+{
+    /* section equipo */
+    /* navigation__imagen  */
+    .navegacion__imagen
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* footer */
+    .footer
+    {
+        flex-direction: column;
+    }
+
+    .footer__block
+    {
+        margin: 40px 0;
+    }
+
+    .nosotros__img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navegacion__item
+    {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 1000px)
+{
+
+    /* toogle */
+    .toogle
+    {
+        display: block;
+    }
+
+    /* nav__list */
+    .nav__lista
+    {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 250px;
+        height: 100vh;
+        background: var(--three-color);
+        margin: 0;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        transition: .5s linear;
+    }
+
+    .nav__lista.active
+    {
+        right: 0;
+    }
+
+    .nav__item
+    {
+        margin-top: 2rem;
+    }
+
+    /* Section nosotros */
+    /* nosotros__contenido*/
+    .nososotros__contenido
+    {
+        flex-direction: column;
+    }
+}
