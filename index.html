@@ -20,12 +20,12 @@
                 <a href="#" class="nav__logo-enlace"><h2 class="nav__logo-logo">FoodFresh</h2></a>
             </div>
             <ul class="nav__lista">
-                <li class="nav__item"><a href="#" class="nav__enlace">inicio</a></li>
-                <li class="nav__item"><a href="#" class="nav__enlace">nosotros</a></li>
-                <li class="nav__item"><a href="#" class="nav__enlace">servicios</a></li>
-                <li class="nav__item"><a href="#" class="nav__enlace">equipo</a></li>
-                <li class="nav__item"><a href="#" class="nav__enlace">testimonios</a></li>
-                <li class="nav__item"><a href="#" class="nav__enlace">contactanos</a></li>
+                <li class="nav__item"><a href="#inicio" class="nav__enlace">inicio</a></li>
+                <li class="nav__item"><a href="#nosotros" class="nav__enlace">nosotros</a></li>
+                <li class="nav__item"><a href="#servicios" class="nav__enlace">servicios</a></li>
+                <li class="nav__item"><a href="#equipo" class="nav__enlace">equipo</a></li>
+                <li class="nav__item"><a href="#testimonios" class="nav__enlace">testimonios</a></li>
+                <li class="nav__item"><a href="#contactanos" class="nav__enlace">contactanos</a></li>
             </ul>
             <div class="toogle">
                 <i class="fas fa-bars icon"></i>
@@ -33,7 +33,7 @@
             </div>
         </nav>
         <!-- Section inicio -->
-        <section class="section inicio">
+        <section class="section inicio" id="inicio">
             <div class="inicio__fondo">
                 <video src="./video/video-de-fondo.mp4" class="inicio__fondo-video" autoplay muted loop></video>
             </div>
@@ -43,7 +43,7 @@
             </div>
         </section>
         <!-- Section nosotros -->
-        <section class="section nosotros">
+        <section class="section nosotros" id="nosotros">
             <div class="nososotros__contenido">
                 <div class="nosotros__block">
                     <h2 class="nosotros__titulo">Quienes Somos?</h1>
@@ -58,7 +58,7 @@
             </div>
         </section>
         <!-- Section servicios -->
-        <section class="section servicios">
+        <section class="section servicios" id="servicios">
             <h2 class="servicios__titulo">Servicios</h1>
             <!-- Contenedor -->
             <div class="servicios__contenido">
@@ -108,7 +108,7 @@
             </div>
         </section>
         <!-- Section equipo -->
-        <section class="section equipo">
+        <section class="section equipo" id="equipo">
             <img src="./img/personas/persona-1.jpg" alt="" id="slider">
             <ul class="navegacion">
                 <li class="navegacion__item" onclick="EscogerFoto('./img/personas/persona-1.jpg')"><img class="navegacion__imagen" src="./img/personas/persona-1.jpg" alt=""></li>
@@ -120,7 +120,7 @@
             </ul>
         </section>
         <!-- Section testimonios -->
-        <section class="section testimonios" style="margin-top: 8rem;">
+        <section class="section testimonios" id="testimonios">
             <div class="tarjeta">
                 <div class="tarjeta__iconos">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: var(--second-color);"><path d="m15.203 6.98.804-.161V4h-1c-2.784 0-4.906.771-6.309 2.292C6.81 8.34 7 10.97 7.006 11v8a1 1 0 0 0 1 1h7c1.103 0 2-.897 2-2v-7a1 1 0 0 0-1-1h-4.079c.022-.402.123-.912.429-1.396.509-.801 1.466-1.347 2.847-1.624z"></path></svg>
@@ -174,7 +174,7 @@
             </div>
         </section>
         <!-- Section contactanos -->
-        <section class="section contactanos">
+        <section class="section contactanos" id="contactanos">
             <form action="" class="form">
                 <h2 class="form__title">Contactanos</h2>
                 <div class="form__block">

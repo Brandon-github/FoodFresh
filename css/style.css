@@ -7,11 +7,18 @@
     --three-color: #1e272e;
 }
 
+/* General */
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
 }
 
 body
